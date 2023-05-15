@@ -21,11 +21,11 @@ public class StringManipulation01 {
 
         //2. yol
         boolean result4 = t.replace(" ","").isEmpty();
-        System.out.println(result4);
+        System.out.println("result4 = " + result4);
 
         //3. Yol
         boolean result5 = t.isBlank();
-        System.out.println(result5);
+        System.out.println("result5 = " + result5);
         //isBlank() methodu sadece space iceren String ler icin true verir, space disinda bir karakter var ise false verir.
         //isBlank() methodu bos stringler icin de true verir.
         //isBlank() methodu space + hicbir sey icin true verir.
@@ -74,17 +74,6 @@ public class StringManipulation01 {
         System.out.println(idxOfe+idxOfa+idxOfi);
 
         //Note: lastIndexOf methodu olmayan karakterler icin kullanilirsa her zaman -1 return eder.
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
