@@ -34,6 +34,6 @@ public class Ternary02 {
 
         String r4 = f>99 && f<1000 ? "Uc basamaklidir" : "Uc basamakli degildir";
         System.out.println(r4);
-        
+
     }
 }
