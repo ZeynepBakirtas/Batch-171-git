@@ -72,6 +72,24 @@ public class Exercise {
         boolean pwdRep = pwd.replaceAll("[^0-9]","").length()>0;
         System.out.println("pwdRep = " + pwdRep);
 
+        //Ornek 4: Bir stringdeki "Java" kelimesinin ilk olarak kacinci index te kullanildigini gosteren kodu yaziniz.
+        String u = "Ah Java vah Java sensiz olmuyor Java.";
+        int u1 = u.indexOf("Java");
+        System.out.println("u1 = " + u1);
+
+        //Ornek 1:  Bir string in belirli bir karakterinden baslayarak belirli bir karaktere kadar dynamic olarak aliniz
+        String a = "abcdefghei@hotmail.com";
+        int firstA = a.indexOf("@")+1;
+        int secondA = a.indexOf(".");
+        String finallyA = a.substring(firstA,secondA);
+        System.out.println("finallyA = " + finallyA);
+
+
+
+
+
+
+
 
 
 
