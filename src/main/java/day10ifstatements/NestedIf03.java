@@ -19,14 +19,16 @@ public class NestedIf03 {
         System.out.println("Password giriniz");
         String pwd = input.nextLine();
 
-        if (pwd.charAt(0) >= 'A' && pwd.charAt(0) <= 'Z'){//Password'un ilk harfi buyuk harf ise
-            if(pwd.charAt(0) == 'A'){
+        char firstChar = pwd.charAt(0);
+
+        if (firstChar >= 'A' && firstChar <= 'Z'){//Password'un ilk harfi buyuk harf ise
+            if(firstChar == 'A'){
                 System.out.println("Gecerli password");
             }else {
                 System.out.println("Gecersiz password cunku buyuk harf ama A degil");
             }
-        } else if (pwd.charAt(0) >= 'a' && pwd.charAt(0) <= 'z') {//Passwordun ilk harfi kucuk harf ise
-            if (pwd.charAt(0) == 'z'){
+        } else if (firstChar >= 'a' && firstChar <= 'z') {//Passwordun ilk harfi kucuk harf ise
+            if (firstChar == 'z'){
                 System.out.println("Gecerli password");
             }else {
                 System.out.println("Gecersiz password cunku kucuk harf ama z degil");
@@ -34,6 +36,9 @@ public class NestedIf03 {
         }else{
             System.out.println("Ilk karakter harf olmalidir.");
         }
+
+        //Note: eger bir metodu tekrar tekrar kullanmak istiyorsaniz onu bir variable a atayarak kullanmak daha makul olur.
+
 
 
     }
