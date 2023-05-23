@@ -46,6 +46,7 @@ public class MethodCreation01 {
 
     //Ornek1 : verilen bir ondalik sayinin kupunu hesaplayan bir method olusturup kullaniniz.
     static double getCube(double a){
+
         return a*a*a;
     }
     //Note: access modifier i default yapmak isterseniz access modifier yazmayiniz.
