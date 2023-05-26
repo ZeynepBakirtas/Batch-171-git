@@ -37,14 +37,5 @@ public class Loops02 {
 
         System.out.println(toplam);
 
-
-
-
-
-
-
-
-
-
     }
 }
