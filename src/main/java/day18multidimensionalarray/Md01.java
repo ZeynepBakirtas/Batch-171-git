@@ -32,6 +32,7 @@ public class Md01 {
 
         //Multidimensional array icindeki array nasil yazdirilir?
         System.out.println(Arrays.toString(a[0]));//[5, 12] ==> arrayleri direk yazdiramayiz, ictekide bir array(data type).
+        //Arrays.toString() methodunu eklemek zorundayiz..
 
         //Kisa yoldan Multdimensional array nasil olusturulur?
         String students[][] = {{"Ali","Kemal"},{"Cemal"},{"Ayhan","Beyhan","Seyhan"},{"Ceyhan","Kayhan"}};
