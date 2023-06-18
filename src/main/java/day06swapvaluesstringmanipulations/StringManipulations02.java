@@ -1,6 +1,6 @@
 package day06swapvaluesstringmanipulations;
 
-public class StringManipulation02 {
+public class StringManipulations02 {
     public static void main(String[] args) {
 
         String s = "Learn Java earn money";

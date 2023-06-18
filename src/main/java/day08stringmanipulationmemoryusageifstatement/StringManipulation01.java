@@ -74,8 +74,6 @@ public class StringManipulation01 {
         System.out.println(idxOfe+idxOfa+idxOfi);
 
         //Note: lastIndexOf methodu olmayan karakterler icin kullanilirsa her zaman -1 return eder.
-
-
     }
 
 }
