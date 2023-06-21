@@ -16,15 +16,15 @@ public class Sb02 {
 
         //sb1.replace(2,5,"xxx") ==> 2 dahil, 5 haric olmak uzere 2,3,4 deki karakterlerin yerine xxx koyar
         sb1.replace(2,5,"x");
-        System.out.println(sb1);//ysxxxvaJ
+        System.out.println(sb1);//ysxvaJ
 
         sb1.insert(3,"OOO");
-        System.out.println(sb1);
+        System.out.println(sb1);//ysxOOOvaJ
 
         StringBuilder sb2 = new StringBuilder("nava");
         StringBuilder sb3 = new StringBuilder("mava");
 
-        //sonuc 0 ise alfabetik olarak ayni siradalar ayni siradalar demektir
+        //sonuc 0 ise alfabetik olarak ayni siradalar demektir
         //sonuc -1 ise sb2, sb3 den alfabetik olarak 1 onde demektir
         //sonuc 1 ise sb2, sb3 den alfabetik olarak 1 sonda demektir
 

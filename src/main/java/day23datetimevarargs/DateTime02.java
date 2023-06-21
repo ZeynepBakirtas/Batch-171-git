@@ -44,7 +44,7 @@ public class DateTime02 {
          */
         DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("HH : mm");
         String formattedMyCurrentTime = dtf1.format(myCurrentTime);
-        System.out.println("formattedMyCurrentTime = " + formattedMyCurrentTime);
+        System.out.println("formattedMyCurrentTime = " + formattedMyCurrentTime);//formattedMyCurrentTime = 13 : 03
 
         //Date formati nasil degistirilir?
         LocalDate myDate = LocalDate.of(2023,8,13);
@@ -53,7 +53,7 @@ public class DateTime02 {
         //Tarihi AY/GUN/YIL sekline ceviriniz
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         String formattedMyDate = dtf2.format(myDate);
-        System.out.println("formattedMyDate = " + formattedMyDate);
+        System.out.println("formattedMyDate = " + formattedMyDate);//formattedMyDate = 08/13/2023
 
         //Baska bir zaman dilimindeki tarih ve zamani nasil alabiliriz
         LocalDate dateInTokya = LocalDate.now(ZoneId.of("Asia/Tokyo"));

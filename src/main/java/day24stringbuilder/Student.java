@@ -11,7 +11,7 @@ public class Student {
     Note: Access Modifier lari genisten dara dogru siralayiniz
     public > protected > default > private
 
-   public ==> Her class dan kullanilabilir
+    public ==> Her class dan kullanilabilir
     protected==> protected olanlar baska package lardan kullanilamaz
                 ancak baska package da child class icinden kullanilabilir
     default ==> default olanlar baska package lardan kullanilamaz
@@ -26,7 +26,7 @@ public class Student {
     //public her class dan kullanilabilir
     public String stdName="Ali Can";
 
-    //protected olanlar kendi package ve baska package lardan child classlardan gorulur
+    //protected olanlar kendi package ve baska package larin child classlardan gorulur
     protected String address="Istanbul";
 
     //default olanlar baska package tan kullanilamazlar

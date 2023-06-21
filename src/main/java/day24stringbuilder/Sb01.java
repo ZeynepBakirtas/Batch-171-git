@@ -37,10 +37,11 @@ public class Sb01 {
 
         sb2.append("Java");
         sb2.append("xxxxxxxxxxxxxxxxxxx");
+        System.out.println("sb2 = " + sb2);//Javaxxxxxxxxxxxxxxxxxxx
 
         //capacity() ve length() arasindaki fark nedir?
-        System.out.println("sb2.length() = " + sb2.length());//4
-        System.out.println("sb2.capacity() = " + sb2.capacity());//16
+        System.out.println("sb2.length() = " + sb2.length());//23
+        System.out.println("sb2.capacity() = " + sb2.capacity());//34
 
         //capacity() javanin size verdigi data depolama yer sayisidir
         //length ise size verilen data depolama yerinin kullanilan kismidir

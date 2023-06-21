@@ -16,6 +16,8 @@ public class DateTime01 {
         int day = input.nextInt();
 
         LocalDate givenDate = LocalDate.of(year, month, day);
+        System.out.println("givenDate = " + givenDate);//givenDate = 1998-06-10
+
 
         if (givenDate.isBefore(LocalDate.now())){
             System.out.println(givenDate + " invalid date");

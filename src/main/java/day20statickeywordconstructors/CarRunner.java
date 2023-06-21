@@ -13,7 +13,7 @@ public class CarRunner {
         System.out.println(c3);
 
         Car c4 = new Car("Mercedes", "C3000");
-        System.out.println(c4);
+        System.out.println(c4);//Car{make='Mercedes', model='C3000', year=2023, hybrid=true}
 
     }
 }

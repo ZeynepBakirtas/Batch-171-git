@@ -36,7 +36,7 @@ public class Animal {
         System.out.println("Animals eat");
     }
     public void drink() {
-        System.out.println("Animals drin");
+        System.out.println("Animals drink");
     }
 
     public Animal create (){

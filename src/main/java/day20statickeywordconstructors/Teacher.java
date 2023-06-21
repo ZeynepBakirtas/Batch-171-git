@@ -18,6 +18,7 @@ public class Teacher {
     }
 
     //consol da gormek icin olusturduk
+
     @Override
     public String toString() {
         return "Teacher{" +

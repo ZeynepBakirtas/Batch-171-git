@@ -10,7 +10,7 @@ public class LinkedList01 {
         //bu ilk olusturma seklimiz
 
         List<String> list2 = new ArrayList<>();
-        // data tipini list secebildik cunku parenti Array list in
+        // data tipini list secebildik cunku Array list'in parenti List'tir
         //Array list is a List, array list is a Collection,
         // Array list is an Interable, Array list is an Object diye tanimlanabilir.
 
@@ -25,7 +25,7 @@ public class LinkedList01 {
             en bastan tum elemanlar kontrol edilir buda cok fazla is demektir
          */
 
-        LinkedList<String> s = new LinkedList();
+        LinkedList<String> s = new LinkedList<>();
         s.add("Nuriye");
         s.add("Orhan");
         s.add("Bunyamin");
@@ -35,8 +35,8 @@ public class LinkedList01 {
         s.add("Abdullah");
         s.add("Nuriye");
         s.add(2,"Omer");
-        s.addFirst("Mahmut Tuncer");
-        s.addLast("Emin");
+        s.addFirst("Mahmut Tuncer");//listenin basina elaman ekleme
+        s.addLast("Emin");//listenin sonuna eleman eklme
         System.out.println(s);//[Mahmut Tuncer, Nuriye, Orhan, Omer, Bunyamin, Saadet, Niyazi, Bilal, Abdullah, Nuriye, Emin]
     }
 }
