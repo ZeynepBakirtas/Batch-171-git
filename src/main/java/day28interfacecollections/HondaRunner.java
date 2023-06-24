@@ -9,6 +9,7 @@ public class HondaRunner {
         Accord myAccord = new Accord();
         myAccord.cool();//Accord cool super
         myAccord.run();//Engine runs super
+        myAccord.eco();
         myCivic.eco();//Uses gas less
 
         Engine.stop();//Stop securely

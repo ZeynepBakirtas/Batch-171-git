@@ -9,7 +9,7 @@ public interface Ac {
     1) Bir interface'i bir classin parenti yapmak icin "implements" keywordunu kullaniriz
     2) java parentlar class oldugunda multiple parent a musaade etmez ama biz bazen
     multiple parent a ihtiyac duyariz
-    Bu ihtiyaci g idermek icin java interface adinda yeni bir yapi olusturdu
+    Bu ihtiyaci gidermek icin java interface adinda yeni bir yapi olusturdu
     Bu yapi sayesinde bir class icin coklu interface parent olusturulabilir
     3) interfacelerin icine conceret method konulamaz, cunku concrete methodlarda body vardir ve
     body o methodun isi nasil yapacagini belirtir. isin nasil yapilacagi bir cok detay icerir ve bu chlid

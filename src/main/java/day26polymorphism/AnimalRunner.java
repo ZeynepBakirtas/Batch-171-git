@@ -8,8 +8,4 @@ public class AnimalRunner {
         myCat.drink();
 
     }
-
-
-
-
 }

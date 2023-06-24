@@ -12,7 +12,7 @@ public class Student {
     get method olusturarak encapsulate edilmis datanin degerini okuyabiliriz
     1) get methodlar public olur
     2) get methodun return type i okudugu variable in return type i ile ayni olur
-    3) get method bir variable  icin olusturulduysa ismi is ile baslar
+    3) get method bir boolean variable  icin olusturulduysa ismi is ile baslar
     Ornek: isSuccessful()
      */
 

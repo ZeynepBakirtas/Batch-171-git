@@ -25,5 +25,20 @@ public class StudentRunner {
         System.out.println(s1.getStdId());//Not ortalamasi = 4.9
         System.out.println(s1.getNotOrt());
         System.out.println(s1.isSuccessful());
+
+        System.out.println("=================================");
+
+        Student s2 = new Student();
+
+        s2.setStdId("MU305703");
+        s2.setSuccessful(false);
+        s2.setNotOrt(1.0);
+
+        System.out.println(s2.getStdId());
+        System.out.println(s2.getNotOrt());
+        System.out.println(s2.isSuccessful());
+
+
+
     }
 }
