@@ -14,6 +14,7 @@ public class InvalidStudentGradeException extends Exception {//Exception classin
 
 
     public InvalidStudentGradeException (String message){
+
         super(message);
     }
 

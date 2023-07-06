@@ -52,7 +52,7 @@ public class HashMap01 {
         //entrySet() mapteki entryleri kalip halinde alip bize Set in icine koyarak verir.
         //<Map.Entry<String,Integer>> ==> bu map in icindeki entryler map in elemanidir
         //Loop lar mapler ile kullanilamaz, bunun icin entrySet() methodu kullaniriz
-        // entrySet() methodu ile collection'a donustu
+        // entrySet() methodu ile collection'a donusturulur
         Set<Map.Entry<String,Integer>> entries = countryPopulation.entrySet();
         System.out.println(entries);//[Netherland=1800000, USA=400000000, Turkey=830000000, Germany=830000000, Albania=30000000]
 
